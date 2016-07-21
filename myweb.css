@@ -1,30 +1,51 @@
-.first h1{margin :auto;
-position:absolute;
-bottom:  500px;
-font-size: 70px;
-font-family: sans-serif;
-font-style: normal;
+
+.top{
+  position: relative;
+font-size: 25px;
+  padding-top: 0px;
+  padding-left: 0px;
+  text-align: center;
+  height:70px;
+  width:1360px;
+  background: #2e2e1f;
 }
-body
-{
-  background : url(1.jpg);
-  }
-h1{color:red;}
+.center
+h1{
+  background-color: rgb(171,221,198);
+  text-align: center;
+   font-family: 'Bungee Shade', cursive;
+color:#eaeae1;
+padding-right: 20px;
+  font-size: 70px;
+  background: #4b4b34;
+  height:500px;
+  width:1360px;
+}
+p{
+    font-size: 50px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+h2{
+    font-size: 40px;
+  text-align: center;
+  font-family: 'Monoton', cursive;
+}
+
 li{
+
   display: inline;
-  padding-left: 90px;
-  padding-top: 50px;
-  margin-top: 30px;
+}
+ul li{
+  position:relative;
+  top:20px;
 }
 ul a{text-decoration: none;
-color: black;
-top:500px;
+color:white;
+padding-right: 10px;
 }
 ul a:hover{
   text-decoration: underline;
-  color: blue;
-  font-size: 15px;
-}
-.nav{
-  margin-top: 100px;
+  color: 	  #eaeae1;
+  font-size: 23px;
 }
