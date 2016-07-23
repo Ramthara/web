@@ -1,51 +1,205 @@
 
-.top{
-  position: relative;
-font-size: 25px;
-  padding-top: 0px;
-  padding-left: 0px;
-  text-align: center;
-  height:70px;
-  width:1360px;
-  background: #2e2e1f;
-}
-.center
-h1{
-  background-color: rgb(171,221,198);
-  text-align: center;
-   font-family: 'Bungee Shade', cursive;
-color:#eaeae1;
-padding-right: 20px;
+
+.main h1{
+font-family: 'Bungee Shade', cursive;
+  width:600px;
   font-size: 70px;
-  background: #4b4b34;
+  position: relative;
+  bottom:400px;
+    color:#b30000;
+    margin-left:350px;
+padding-right: 10px;
+    text-align: center;
+  }
+  .main h2{
+padding-right: 10px;
+    position: relative;
+bottom:90px;
+    color:#e6ac00;
+     font-size: 60px;
+    font-family: 'Bungee Shade', cursive;
+    width:600px;
+    margin-left: 480px;
+}
+
+
+.event
+{
+  background-color: rgb(220,79,83);;
   height:500px;
-  width:1360px;
 }
 p{
-    font-size: 50px;
   text-align: center;
-  font-family: 'Dancing Script', cursive;
+  color:white;
+  position: relative;
+  top:-100px;
 }
-h2{
+.pictures h3,h4{
+left:400px;
+position: relative;
+top:-300px;
+color: blue;
+padding-right:30px;
+}
+.pictures{
+  height:500px;
+}
+.image_box{
+  background-color: grey;
+}
+h4{
+    color: orange;
+    top:-350px;
+}
+.z{
+  position: relative;
+  top:-350px;
+}
+.h5
+{
     font-size: 40px;
   text-align: center;
   font-family: 'Monoton', cursive;
 }
 
-li{
-
-  display: inline;
+.coming{
+background-color: rgb(248,202,105);;
+  height:400px;
 }
+.p{
+  margin-top:20px;;
+}
+
+
+.grid_8 .a{
+  background: rgb(248,191,84);
+  height:30px;
+  position: relative;
+  left: 80px;
+
+}
+.grid_8 .b{
+  background: rgb(248,191,84);
+  height:30px;
+  position: relative;
+  left: 80px;
+}
+.h2{
+    font-size: 40px;
+  text-align: center;
+  font-family: 'Monoton', cursive;
+}
+.grid_12{
+  background-color:#4d3300;
+  padding-bottom: 10px;
+}
+
 ul li{
   position:relative;
   top:20px;
+
+    display: inline;
 }
 ul a{text-decoration: none;
-color:white;
+    color:#ffffb3;
+font-family: 'Mirza', cursive;
+
+font-size: 15px;
 padding-right: 10px;
+
 }
 ul a:hover{
-  text-decoration: underline;
-  color: 	  #eaeae1;
-  font-size: 23px;
+  text-decoration: none;
+  color: 	  white;
+  font-size: 20px;
 }
+.body {
+
+  margin-bottom: :200px;
+  background-color: #3ba7b8;;
+
+}
+.grid_2 {
+  position: relative;
+  bottom:200px;
+  margin:20px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+ .tooltip{
+    background-color: rgb(230,230,230);;
+  width:100px;
+  height:100px;
+}
+ .tooltip img{
+  visibility: hidden;
+  width:100px;
+  height:100px;
+}
+.grid_2:hover .tooltip img{
+   visibility: visible;
+}
+
+
+.tooltip2 img{
+ width:300px;
+ height:300px;
+
+}
+.tooltip3 img{
+ width:300px;
+ height:300px;
+ margin-left: 100px;
+}
+
+.content p{
+  margin-top: 30px;
+  margin-left: 200px;
+ font-size: 20px;
+ text-align: justify;
+ color: rgb(248,191,84);
+}
+
+.content1 p{
+  margin-top: 50px;
+  margin-left: 200px;
+ font-size: 20px;
+ text-align: justify;
+ margin-bottom: 15px;
+ color: white;
+}
+
+
+
+.coming p{
+  position: relative;
+  top:-70px;
+  margin-top: 100px;
+  text-align: center;
+}
+form li{
+  list-style: none;
+
+}
+form ul{  position: relative;
+  top:-90px;
+  padding-left: 0;}
+label{
+  display: block}
+form p{
+
+  color: red;
+}
+/*
+///////////////
+Event info
+///////////////*/
+.event{
+  height:400px;
+  padding: 0px;
+}
+.event p{
+  height:10px;
+}
+
+.event P

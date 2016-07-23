@@ -1,0 +1,11 @@
+
+.grid_6
+{
+  height: 200px;
+  width:200px;
+  margin-top: 20px;
+}
+p{
+  position: relative;
+  left: -190px;
+}
